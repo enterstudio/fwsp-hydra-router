@@ -1,0 +1,70 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.12.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hoek:20180212':
+    - fwsp-logger > fwsp-hydra > fwsp-prequest > request > hawk > sntp > hoek:
+        patched: '2018-06-19T02:37:26.247Z'
+    - fwsp-hydra > fwsp-prequest > request > hawk > hoek:
+        patched: '2018-06-19T02:37:26.247Z'
+    - fwsp-hydra > fwsp-prequest > request > hawk > sntp > hoek:
+        patched: '2018-06-19T02:37:26.247Z'
+    - fwsp-hydra > fwsp-prequest > request > hawk > cryptiles > boom > hoek:
+        patched: '2018-06-19T02:37:26.247Z'
+    - fwsp-config > fwsp-hydra > fwsp-prequest > request > hawk > hoek:
+        patched: '2018-06-19T02:37:26.247Z'
+    - fwsp-config > fwsp-hydra > fwsp-prequest > request > hawk > boom > hoek:
+        patched: '2018-06-19T02:37:26.247Z'
+    - fwsp-config > fwsp-hydra > fwsp-prequest > request > hawk > sntp > hoek:
+        patched: '2018-06-19T02:37:26.247Z'
+    - fwsp-config > fwsp-hydra > fwsp-prequest > request > hawk > cryptiles > boom > hoek:
+        patched: '2018-06-19T02:37:26.247Z'
+    - fwsp-config > fwsp-hydra-express > fwsp-jwt-auth > jsonwebtoken > joi > hoek:
+        patched: '2018-06-19T02:37:26.247Z'
+    - fwsp-config > fwsp-hydra-express > fwsp-jwt-auth > jsonwebtoken > joi > topo > hoek:
+        patched: '2018-06-19T02:37:26.247Z'
+    - fwsp-config > fwsp-hydra-express > fwsp-hydra > fwsp-prequest > request > hawk > hoek:
+        patched: '2018-06-19T02:37:26.247Z'
+    - fwsp-config > fwsp-hydra-express > fwsp-hydra > fwsp-prequest > request > hawk > boom > hoek:
+        patched: '2018-06-19T02:37:26.247Z'
+    - fwsp-config > fwsp-hydra-express > fwsp-hydra > fwsp-prequest > request > hawk > sntp > hoek:
+        patched: '2018-06-19T02:37:26.247Z'
+    - fwsp-config > fwsp-hydra-express > fwsp-hydra > fwsp-prequest > request > hawk > cryptiles > boom > hoek:
+        patched: '2018-06-19T02:37:26.247Z'
+    - fwsp-logger > fwsp-hydra > fwsp-prequest > request > hawk > hoek:
+        patched: '2018-06-19T02:37:26.247Z'
+    - fwsp-logger > fwsp-hydra > fwsp-prequest > request > hawk > boom > hoek:
+        patched: '2018-06-19T02:37:26.247Z'
+    - fwsp-hydra > fwsp-prequest > request > hawk > boom > hoek:
+        patched: '2018-06-19T02:37:26.247Z'
+    - fwsp-logger > fwsp-hydra > fwsp-prequest > request > hawk > cryptiles > boom > hoek:
+        patched: '2018-06-19T02:37:26.247Z'
+    - fwsp-logger > fwsp-hydra-express > fwsp-jwt-auth > jsonwebtoken > joi > hoek:
+        patched: '2018-06-19T02:37:26.247Z'
+    - fwsp-logger > fwsp-hydra-express > fwsp-jwt-auth > jsonwebtoken > joi > topo > hoek:
+        patched: '2018-06-19T02:37:26.247Z'
+    - fwsp-logger > fwsp-hydra-express > fwsp-hydra > fwsp-prequest > request > hawk > hoek:
+        patched: '2018-06-19T02:37:26.247Z'
+    - fwsp-logger > fwsp-hydra-express > fwsp-hydra > fwsp-prequest > request > hawk > boom > hoek:
+        patched: '2018-06-19T02:37:26.247Z'
+    - fwsp-logger > fwsp-hydra-express > fwsp-hydra > fwsp-prequest > request > hawk > sntp > hoek:
+        patched: '2018-06-19T02:37:26.247Z'
+    - fwsp-logger > fwsp-hydra-express > fwsp-hydra > fwsp-prequest > request > hawk > cryptiles > boom > hoek:
+        patched: '2018-06-19T02:37:26.247Z'
+    - '@risingstack/trace > v8-profiler > node-pre-gyp > hawk > hoek':
+        patched: '2018-06-19T02:37:26.247Z'
+    - '@risingstack/trace > v8-profiler > node-pre-gyp > hawk > boom > hoek':
+        patched: '2018-06-19T02:37:26.247Z'
+    - '@risingstack/trace > v8-profiler > node-pre-gyp > hawk > sntp > hoek':
+        patched: '2018-06-19T02:37:26.247Z'
+    - '@risingstack/trace > v8-profiler > node-pre-gyp > hawk > cryptiles > boom > hoek':
+        patched: '2018-06-19T02:37:26.247Z'
+    - '@risingstack/trace > v8-profiler > node-pre-gyp > request > hawk > hoek':
+        patched: '2018-06-19T02:37:26.247Z'
+    - '@risingstack/trace > v8-profiler > node-pre-gyp > request > hawk > boom > hoek':
+        patched: '2018-06-19T02:37:26.247Z'
+    - '@risingstack/trace > v8-profiler > node-pre-gyp > request > hawk > sntp > hoek':
+        patched: '2018-06-19T02:37:26.247Z'
+    - '@risingstack/trace > v8-profiler > node-pre-gyp > request > hawk > cryptiles > boom > hoek':
+        patched: '2018-06-19T02:37:26.247Z'
