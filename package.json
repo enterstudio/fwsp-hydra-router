@@ -19,14 +19,14 @@
   "dependencies": {
     "@risingstack/trace": "3.0.2",
     "bluebird": "3.4.7",
-    "fwsp-config": "1.1.0",
-    "fwsp-hydra": "0.14.2",
+    "fwsp-config": "1.1.4",
+    "fwsp-hydra": "1.0.0",
     "fwsp-jsutils": "1.0.8",
-    "fwsp-logger": "0.1.2",
+    "fwsp-logger": "0.1.4",
     "fwsp-queuer": "0.0.1",
     "fwsp-server-response": "2.2.3",
     "fwsp-umf-message": "0.4.3",
-    "request": "2.79.0",
+    "request": "2.84.0",
     "route-parser": "0.0.5",
     "ws": "1.1.1"
   },
