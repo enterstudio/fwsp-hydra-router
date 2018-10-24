@@ -10,7 +10,9 @@
   "scripts": {
     "start": "node hydra-router.js",
     "debug": "node --inspect hydra-router.js",
-    "test": "mocha specs --reporter spec"
+    "test": "mocha specs --reporter spec",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "engines": {
     "node": ">=6.9.2"
@@ -19,21 +21,23 @@
   "dependencies": {
     "@risingstack/trace": "3.0.2",
     "bluebird": "3.4.7",
-    "fwsp-config": "1.1.0",
-    "fwsp-hydra": "0.14.2",
+    "fwsp-config": "1.1.4",
+    "fwsp-hydra": "0.15.0",
     "fwsp-jsutils": "1.0.8",
-    "fwsp-logger": "0.1.2",
+    "fwsp-logger": "0.1.4",
     "fwsp-queuer": "0.0.1",
     "fwsp-server-response": "2.2.3",
     "fwsp-umf-message": "0.4.3",
-    "request": "2.79.0",
+    "request": "2.81.0",
     "route-parser": "0.0.5",
-    "ws": "1.1.1"
+    "ws": "1.1.1",
+    "snyk": "^1.104.2"
   },
   "devDependencies": {
     "chai": "3.5.0",
     "eslint": "3.12.2",
     "mocha": "3.2.0",
     "superagent": "3.3.1"
-  }
+  },
+  "snyk": true
 }
