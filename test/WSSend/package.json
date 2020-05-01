@@ -14,7 +14,8 @@
     "fwsp-umf-message": "0.3.1",
     "bluebird": "3.4.1",
     "commander": "2.9.0",
-    "ws": "1.1.1"
+    "ws": "1.1.1",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "chai": "3.5.0",
@@ -23,5 +24,10 @@
     "jscs-jsdoc": "2.0.0",
     "mocha": "3.0.2",
     "superagent": "2.2.0"
-  }
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
