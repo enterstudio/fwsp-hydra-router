@@ -1,0 +1,25 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.19.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - '@risingstack/trace > debug':
+        patched: '2020-08-07T08:28:15.801Z'
+  'npm:hoek:20180212':
+    - '@risingstack/trace > v8-profiler > node-pre-gyp > hawk > hoek':
+        patched: '2020-08-07T08:28:15.801Z'
+    - '@risingstack/trace > v8-profiler > node-pre-gyp > hawk > boom > hoek':
+        patched: '2020-08-07T08:28:15.801Z'
+    - '@risingstack/trace > v8-profiler > node-pre-gyp > hawk > sntp > hoek':
+        patched: '2020-08-07T08:28:15.801Z'
+    - '@risingstack/trace > v8-profiler > node-pre-gyp > request > hawk > hoek':
+        patched: '2020-08-07T08:28:15.801Z'
+    - '@risingstack/trace > v8-profiler > node-pre-gyp > hawk > cryptiles > boom > hoek':
+        patched: '2020-08-07T08:28:15.801Z'
+    - '@risingstack/trace > v8-profiler > node-pre-gyp > request > hawk > boom > hoek':
+        patched: '2020-08-07T08:28:15.801Z'
+    - '@risingstack/trace > v8-profiler > node-pre-gyp > request > hawk > sntp > hoek':
+        patched: '2020-08-07T08:28:15.801Z'
+    - '@risingstack/trace > v8-profiler > node-pre-gyp > request > hawk > cryptiles > boom > hoek':
+        patched: '2020-08-07T08:28:15.801Z'
