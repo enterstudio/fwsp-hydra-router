@@ -17,7 +17,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@risingstack/trace": "3.0.2",
+    "@risingstack/trace": "3.0.3",
     "bluebird": "3.4.7",
     "fwsp-config": "1.1.0",
     "fwsp-hydra": "0.14.2",
